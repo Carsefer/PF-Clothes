@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./LandingHome.css";
+import Footer from "../Footer/Footer";
 export default function LandingHome() {
   return (
     <div className="container">
@@ -20,6 +21,7 @@ export default function LandingHome() {
             Start to Sell
           </button>
         </Link>
+        <Footer />
       </div>
     </div>
   );
