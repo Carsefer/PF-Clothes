@@ -6,7 +6,7 @@ export default function TiendaCard({id,name, logo}) {
     const history = useHistory();
 
     function handleClick() {
-        history.push(`tienda/${id}`);
+        history.push(`store/${id}`);
     }
 
     return (
