@@ -12,10 +12,6 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
     "react-dom": "^18.2.0",
-<<<<<<< HEAD
-=======
-    "react-icons": "^4.4.0",
->>>>>>> e8687b6b86c5a957d4715458773d81d04d402a35
     "react-router-dom": "^6.4.2",
     "react-scripts": "5.0.1",
     "redux": "^4.2.0",
