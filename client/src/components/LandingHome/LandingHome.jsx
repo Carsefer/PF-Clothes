@@ -16,7 +16,7 @@ export default function Landing() {
         </Link>
 
         <Link to="/register">
-          <button className="btn btn-primary btn-lg me-md-2">
+          <button className="btn btn-primary btn-lg nme-md-2">
             Start to Sell
           </button>
         </Link>
