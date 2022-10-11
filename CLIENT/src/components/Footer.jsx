@@ -38,7 +38,7 @@ return (
         </a>
     </div>
      <div>
-        <a href="">
+        <a href="https://www.linkedin.com/in/juan-pablo-romero-poveda-477514253/">
         Juan Pablo  <FaLinkedin/>
         </a>
     </div>
