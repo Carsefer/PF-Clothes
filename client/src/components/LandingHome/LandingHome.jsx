@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./LandingHome.css";
-export default function Landing() {
+export default function LandingHome() {
   return (
     <div className="container">
       <div>
