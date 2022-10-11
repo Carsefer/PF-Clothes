@@ -4,7 +4,7 @@ const initialState = {
     products: []
 }
 
-const rootReducer = (initialState = state, action) => {
+const rootReducer = (state = initialState, action) => {
     switch (action.type) {
         case GET_PRODUCTS:
             return {
