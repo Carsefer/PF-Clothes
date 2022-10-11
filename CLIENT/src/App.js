@@ -1,10 +1,14 @@
-import "./App.css";
-
+import { Route, Routes } from "react-router-dom";
+import Footer from "./components/Footer/Footer";
+import LandingHome from "./components/LandingHome/LandingHome";
 function App() {
   return (
-    <div className="App">
-      <h1>Hola Mundo</h1>
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<LandingHome />} />
+        <Route path="*" element={<Footer />} />
+      </Routes>
+    </>
   );
 }
 
