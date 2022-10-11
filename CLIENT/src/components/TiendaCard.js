@@ -1,12 +1,12 @@
 import React from "react";
 import "./css/Card.css"
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function TiendaCard({id,name, logo}) {
-    const history = useHistory();
+    const navigate = useNavigate();
 
     function handleClick() {
-        history.push(`store/${id}`);
+        navigate(`store/${id}`);
     }
 
     return (
