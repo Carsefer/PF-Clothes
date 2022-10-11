@@ -12,7 +12,7 @@ export default function LandingHome() {
       <div className="d-grid gap-2  d-md-flex justify-content-md-start">
         <Link to="/home">
           <button className="btn btn-primary btn-lg me-md-2">
-            Enter to the Shop
+            Enter to the Shop+
           </button>
         </Link>
 
