@@ -1,5 +1,5 @@
-const sizes = ["XXXL", "XXL", "XL", "S", "M", "L", "XS", "XXS", "XXXS"]
+const sizes = ["XXXL", "XXL", "XL", "S", "M", "L", "XS", "XXS", "XXXS"];
 
-module.exports={
-    sizes
-}
+module.exports = {
+  sizes,
+};
