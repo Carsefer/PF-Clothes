@@ -1,11 +1,15 @@
 import { GET_PRODUCTS,
          GET_PRODUCT_DETAIL,
+         GET_SIZES,
+         GET_MARKS,
          ORDER_PRODUCTS_BY_NAME,
          ORDER_PRODUCTS_BY_SCORE } from "../action-types"
 
 const initialState = {
     products: [],
-    productDetail: {}
+    productDetail: {},
+    sizes: [],
+    marks: []
 }
 
 const rootReducer = (state = initialState, action) => {
@@ -19,6 +23,16 @@ const rootReducer = (state = initialState, action) => {
             return {
                 ...state,
                 productDetail: action.payload
+            }
+        case GET_SIZES:
+            return {
+                ...state,
+                sizes: action.payload
+            }
+        case GET_MARKS:
+            return {
+                ...state,
+                marks: action.payload
             }
         case ORDER_PRODUCTS_BY_NAME:
             const orderedProductsByName = action.payload === "ascendente" ? 

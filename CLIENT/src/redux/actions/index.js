@@ -1,6 +1,8 @@
 import axios from "axios";
 import { GET_PRODUCTS,
          GET_PRODUCT_DETAIL,
+         GET_SIZES,
+         GET_MARKS,
          ORDER_PRODUCTS_BY_NAME,
          ORDER_PRODUCTS_BY_SCORE } from "../action-types";
 
@@ -20,6 +22,26 @@ export const getProductDetail = (id) => {
         dispatch({
             type: GET_PRODUCT_DETAIL,
             payload: detail.data
+        })
+    }
+}
+
+export const getSizes = () => {
+    return async function (dispatch) {
+        const sizes = await axios.get(`http://localhost:3001/sizes`)
+        dispatch({
+            type: GET_SIZES,
+            payload: sizes.data
+        })
+    }
+}
+
+export const getMark = () => {
+    return async function (dispatch) {
+        const marks = await axios.get(`http://localhost:3001/marks`)
+        dispatch({
+            type: GET_MARKS,
+            payload: marks.data
         })
     }
 }
