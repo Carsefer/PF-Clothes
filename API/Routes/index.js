@@ -16,6 +16,6 @@ router.get("/test", (req, res) => {
 })
 //
 
-//ESTO ES UNA PRUEBA
+//ESTO ES UNA PRUEBA pero arreglado
 
 module.exports = router
